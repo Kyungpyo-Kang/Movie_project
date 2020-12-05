@@ -1,10 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 import Main.views
-import Family.views
-import Couple.views
-import Solo.views
-import Result.views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
